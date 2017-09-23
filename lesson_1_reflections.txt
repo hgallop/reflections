@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Using the command line to compare the two files pinpointed the actual differences
+in the files without having to do a line by line comparison of each line of the
+whole program to find the changes. It was a much faster way to view the differences.
+Had I went through the entire program I likely would have experienced fatigue and
+overlooked the differences.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Having access to previous versions of a file can allow me to more quickly debug
+problems by comparing the buggy version with the last version that worked. It will
+give me the opportunity to look back over older versions and see the evolution of
+a project. It will also allow me to introduce recursion and make my code more
+elegant and efficient.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google Docs
+does?
+
+The pros of choosing when to commit: You have control over when the changes are
+saved. You can choose to save after each significant change you make.
+The cons of choosing when to commit: If you forget to save a commit at regular
+intervals you will have too many changes to logically follow. You may lose more
+significant progress if something happens to your file/computer while working on it.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+You are more likely to be working through interrelated files when using Git
+than when using other version control such as google docs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log displays all commits with comments under a unique id, with user, date
+and time. Git diff allow you to compare two commits by their id and highlights
+the changes made with a plus-sign for lines added and a minus-sign for lines removed.
+Color coding can be applied through configuration which adds red to removed lines
+and green to added lines.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Version control would allow me to have a safe saved working version of my file to
+revert back to in case I break the code with errors or experimentation. This will
+give me the confidence to introduce new and even experimental features without
+fear that I won't be able to fix any problems that may come up as I work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Being fairly new to Git, although I know I will use Git for version control,
+it seems that I can create, move, rename, or open files and directories. Other
+uses will become evident after some time learning the uses of Git.
+
+ What happens when you initialize a repository? Why do you need to do it?
+
+ Initializing the repository adds the hidden .git file that allows you to begin
+ to make commits based on the changes that you make to a file. You can then
+ commit new changes with a message, track those changes through commit ids and
+ compare new and old versions of your file.
