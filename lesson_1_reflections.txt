@@ -54,9 +54,4 @@ Being fairly new to Git, although I know I will use Git for version control,
 it seems that I can create, move, rename, or open files and directories. Other
 uses will become evident after some time learning the uses of Git.
 
- What happens when you initialize a repository? Why do you need to do it?
-
- Initializing the repository adds the hidden .git file that allows you to begin
- to make commits based on the changes that you make to a file. You can then
- commit new changes with a message, track those changes through commit ids and
- compare new and old versions of your file.
+ 
