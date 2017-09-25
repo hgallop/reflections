@@ -15,3 +15,42 @@ staging area acts as an intermediary between the two. The staging area gives one
 the opportunity to reflect on the most logical separation of the commits and
 which combinations of file changes should be grouped together for the easiest
 comparison between file changes.
+
+ How can you use the staging area to make sure you have one commit per logical
+ change?
+
+ The staging area allows the user to add files that they wish to commit while
+ excluding those they do not. This allows the user to control the commit of file
+changes to groups that logically connect while leaving off those that do not
+logically connect to the change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Creating branches can be helpful for creating large changes, new versions, or
+experimental features. It allows you to keep your existing master branch that is
+a working copy of your files while making vast changes that are separate.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are a useful tool to logically follow the path that commits take. As
+more and more branching is executed and more commits made to each branch, a
+diagram will allow you to keep track of how to navigate between branches and
+commits.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+When two branches are merged together all the changes (commits) for each branch
+are combined in chronological order from the time that the branch from master
+was created. It is represented by a branching diagram because it helps one to
+visualize the path each branch traveled and shows where the paths reconnected to
+form a single branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Automatic merging is a time saving feature of git. If no conflicts are present
+it quickly and easily merges the two branches. If you had to merge manually at
+all times, you would get more control over the merged commits but it would be
+time consuming to merge each change individually. 
